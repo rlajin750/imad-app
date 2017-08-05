@@ -22,10 +22,10 @@ content:`<p>
 };
 
 function createTeplate(data){
-    var title= data.title;
-    var date= data.date;
-    var heading= data.heading;
-    var content= data.content;
+    var title = data.title;
+    var date = data.date;
+    var heading = data.heading;
+    var content = data.content;
 var htmltemplate = `
 <html>
   <head>
