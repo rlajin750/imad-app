@@ -22,7 +22,7 @@ content:`
            </p>`
 };
 
-function createTeplate(data){
+function createTemplate(data){
     var title = data.title;
     var date = data.date;
     var heading = data.heading;
@@ -63,7 +63,7 @@ app.get('/', function (req, res) {
 });
 
     app.get('/article-one', function (req, res) {
-         res.send(createTeplate(articleone));
+         res.send(createTemplate(articleone));
 });
 
  app.get('/article-two', function (req, res) {
